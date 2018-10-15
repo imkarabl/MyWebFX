@@ -1,2 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
-gradle.xml
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
