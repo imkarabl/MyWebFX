@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2e334b;"
+            xmlns="http://javafx.com/javafx/8.0.171" fx:controller="sample.controllers.Controller">
+    <children>
+        <AnchorPane layoutY="98.0" prefHeight="302.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <TextField fx:id="login_field" layoutX="263.0" layoutY="101.0" prefHeight="25.0" prefWidth="210.0"
+                           promptText="Логин"
+                           style="-fx-background-color: fafafa; -fx-border-color: black; -fx-border-radius: 5;"/>
+                <TextField fx:id="pass_field" layoutX="263.0" layoutY="151.0" prefHeight="25.0" prefWidth="210.0"
+                           promptText="Пароль"
+                           style="-fx-background-color: fafafa; -fx-border-color: black; -fx-border-radius: 5;"/>
+                <Label layoutX="284.0" layoutY="14.0" prefHeight="85.0" prefWidth="168.0" text="Авторизация"
+                       textFill="#401616">
+                    <font>
+                        <Font name="Bodoni MT" size="28.0"/>
+                    </font>
+                </Label>
+                <Button fx:id="SignButton" layoutX="288.0" layoutY="208.0" mnemonicParsing="false" prefHeight="25.0"
+                        prefWidth="141.0" style="-fx-background-color: #ab1b2b;" text="Вход" textFill="WHITE">
+                    <font>
+                        <Font name="Algerian" size="12.0"/>
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+        <Label layoutX="158.0" layoutY="14.0" text="Imkarabl" textFill="WHITE">
+            <font>
+                <Font name="Algerian" size="76.0"/>
+            </font>
+        </Label>
+        <Button fx:id="SignupButton" layoutX="559.0" layoutY="2.0" mnemonicParsing="false" prefHeight="25.0"
+                prefWidth="141.0" style="-fx-background-color: #ab1b2b;" text=" Зарегистрироваться" textFill="WHITE">
+            <font>
+                <Font name="Algerian" size="12.0"/>
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
